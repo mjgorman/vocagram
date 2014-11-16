@@ -1,1 +1,5 @@
 db.sqlite3
+nosetests.xml
+pylint.out
+venv/
+*.pyc
