@@ -1,3 +1,4 @@
+""" Models for the application"""
 from django.db import models
 
 # Create your models here.
@@ -10,6 +11,6 @@ class Post(models.Model):
     body = models.TextField() # This will become audio file
     pub_date = models.DateTimeField('date published')
     likes = models.IntegerField()
-    
+
     def __unicode__(self):
         return self.title
