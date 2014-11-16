@@ -1,0 +1,12 @@
+<html>
+<body>
+
+Hello {{ name }},
+<p> Here is your timeline
+{% for post in timeline %}
+  <p>&nbsp;<font size="4">{{ post.title }}</p>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;<font size="2">User: {{ post.user }} Likes: {{ post.likes }}</p>
+{% endfor %}
+
+</body>
+</html>
